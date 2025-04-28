@@ -26,9 +26,9 @@ author:
   avatar           : "profile_mingi.png"
   name             : "Mingi Kwon"
   pronouns         : # example: "she/her"
-  bio              : "Hello! I'm master student in ECE department greatly interested in computer architecture."
+  bio              : "Hello! I'm a master student in UCSD ECE greatly interested in computer architecture."
   location         : "La Jolla, CA"
-  employer         : "University of California, San Diego"
+  employer         : "UC San Diego"
   uri              : # URL
   email            : "mik090@ucsd.edu"
 
