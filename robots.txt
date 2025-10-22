@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mingi001025.github.io/# the base hostname & protocol for your site/sitemap.xml
