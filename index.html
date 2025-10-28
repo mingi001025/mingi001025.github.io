@@ -5,7 +5,7 @@
 
     <title>Mingi Kwon</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Mingi Kwon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -16,219 +16,172 @@
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
+          
+          <!-- ================= HEADER / INTRO ================= -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
                   Mingi Kwon
                 </p>
+
                 <p>
-                  I am <strong>Mingi Kwon</strong>, a Master's student in <strong>Electrical and Computer Engineering</strong> at 
+                  I am <strong>Mingi Kwon</strong>, a Master's student in 
+                  <strong>Electrical and Computer Engineering</strong> at 
                   <a href="https://ucsd.edu">UC San Diego (UCSD)</a>, advised by 
                   <a href="https://cseweb.ucsd.edu/~jzhao/">Prof. Jishen Zhao</a> in the 
-                  <a href="https://cseweb.ucsd.edu/~jzhao/stable.html">STABLE Lab</a>.
+                  STABLE Lab.
                   My research focuses on <strong>computer architecture</strong>, 
-                  <strong>workload characterization</strong>, and <strong>hardware–software co-design</strong> 
-                  for large-scale <strong>AI and ML systems</strong>.
+                  <strong>workload characterization</strong>, and 
+                  <strong>hardware–software co-design</strong> for large-scale 
+                  <strong>AI and ML systems</strong>.
                 </p>
 
                 <p>
-                  I am particularly interested in bridging the gap between <strong>system-level performance analysis</strong> 
-                  and <strong>microarchitectural optimization</strong> to improve efficiency across modern AI workloads.
-                  My recent work includes <strong>characterizing AlphaFold3 inference</strong> and 
-                  identifying performance bottlenecks across heterogeneous hardware platforms, 
-                  which was accepted to <strong>IEEE IISWC 2025</strong>.
+                  I study how modern machine learning workloads stress real hardware, and how we can redesign
+                  architectures and runtime systems to make them faster and more efficient. Recently, I’ve been
+                  characterizing <strong>AlphaFold3 inference</strong> and large-scale <strong>LLM serving</strong>
+                  to identify bottlenecks across compute, memory, and interconnect. Our work on AlphaFold3 performance
+                  characterization was accepted to <strong>IEEE IISWC 2025</strong>.
                 </p>
                 
                 <p>
-                  Previously, I interned at <strong>Samsung SAIT (Corporate R&D)</strong>, where I optimized 
-                  an Out-of-Order RISC-V CPU frontend, achieving significant area and timing improvements through 
-                  microarchitectural refactoring. I am currently expanding my research into 
-                  <strong>multi-agent system inference</strong> and <strong>large-scale LLM serving</strong>, 
-                  exploring new frontiers in efficient system design for next-generation AI workloads.
+                  Previously, I was a research intern at <strong>Samsung SAIT (Corporate R&amp;D)</strong>, where I
+                  optimized an out-of-order RISC-V CPU frontend, achieving significant area and timing improvements via
+                  microarchitectural refactoring. I am currently extending this line of work to multi-agent LLM systems,
+                  focusing on inference scalability, batching, and KV-cache behavior on modern GPU clusters.
                 </p>
+
                 <p style="text-align:center">
-                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="mailto:mik090@ucsd.edu">Email</a> &nbsp;/&nbsp;
                   <a href="data/MingiKwon-resume.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=qvKARf0AAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/mingi001025/">Github</a>
                 </p>
               </td>
+
+              <!-- ===== PROFILE IMAGE ===== -->
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/MingiKwon.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron.jpg" class="hoverZoomLink"></a>
+                <a href="images/MingiKwon.jpg">
+                  <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" 
+                       alt="profile photo" 
+                       src="images/MingiKwon.jpg" 
+                       class="hoverZoomLink">
+                </a>
               </td>
             </tr>
           </tbody></table>
+
+          <!-- ================= RESEARCH BLURB ================= -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
+            <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer architecture, workload characterization, and efficient system design for AI. 
-                  My work explores how deep learning workloads behave on modern hardware 
-                  and how we can co-optimize architectures and runtime systems for performance and scalability. 
-                  Lately, I've focused on analyzing AlphaFold3 and large language model serving pipelines 
-                  to uncover inefficiencies in computation, memory access, and GPU utilization.
+                  I'm interested in computer architecture, workload characterization, and efficient system design for AI.
+                  My work explores how deep learning workloads behave on modern hardware and how we can co-optimize
+                  architectures and runtime systems for performance and scalability. Lately, I've focused on analyzing
+                  AlphaFold3 and large language model serving pipelines to uncover inefficiencies in computation, memory
+                  access, and GPU utilization. Some projects are <span class="highlight">highlighted</span>.
                 </p>
               </td>
             </tr>
           </tbody></table>
+
+          <!-- ================= PROJECT / PAPER ENTRY ================= -->
+          <!-- Replace this table row for each paper/project you want to showcase -->
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="afsysbench_stop()" onmouseover="afsysbench_start()" bgcolor="#ffffd0">
+              <!-- left cell: thumbnail / video hover -->
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <!-- On-hover video block -->
+                  <div class="two" id="afsysbench_image">
+                    <!-- optional short clip or animated gif/mp4 if you have it -->
+                    <!-- If you don't have a video yet, you can remove the <video> block and just keep the static image -->
+                    <video width="100%" height="100%" muted autoplay loop>
+                      <source src="images/afsysbench.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
 
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bolt3d.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+                  <!-- fallback static image / thumbnail -->
+                  <img src="images/afsysbench_thumb.jpg" width="160">
+                </div>
 
-          </video></div>
-          <img src='images/bolt3d.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function bolt3d_start() {
-            document.getElementById('bolt3d_image').style.opacity = "1";
-          }
+                <!-- simple hover handlers -->
+                <script type="text/javascript">
+                  function afsysbench_start() {
+                    document.getElementById('afsysbench_image').style.opacity = "1";
+                  }
 
-          function bolt3d_stop() {
-            document.getElementById('bolt3d_image').style.opacity = "0";
-          }
-          bolt3d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://szymanowiczs.github.io/bolt3d">
-          <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
-        </a>
-        <br>
-        <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
-        <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
-        <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
-        <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
-        <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-        <a href="https://holynski.org">Aleksander Holynski</a>,
-        <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://henzler.github.io">Philipp Henzler</a>
-        <br>
-        <em>ICCV</em>, 2025
-        <br>
-        <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
-        /
-        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
-        <p></p>
-        <p>
-		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
-        </p>
-      </td>
-    </tr>
-
-
-
-
-
-          
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
+                  function afsysbench_stop() {
+                    document.getElementById('afsysbench_image').style.opacity = "0";
+                  }
+                  afsysbench_stop();
+                </script>
               </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #fcb97d;">
-								 <h2>Micropapers</h2>
-								 </div>
-              </td>
+
+              <!-- right cell: text content -->
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+                <a href="data/afsysbench_paper.pdf">
+                  <span class="papertitle">
+                    AlphaFold3 Workload Characterization: A Comprehensive Analysis of Bottlenecks and Performance Scaling
+                  </span>
+                </a>
                 <br>
-                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+
+                <!-- authors: bold yourself -->
+                <strong>Mingi Kwon</strong>,
+                [Co-author 1],
+                [Co-author 2],
+                [Co-author 3],
+                <a href="https://cseweb.ucsd.edu/~jzhao/">Jishen Zhao</a>
                 <br>
-                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+
+                <em>IEEE International Symposium on Workload Characterization (IISWC)</em>, 2025
                 <br>
-                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
+
+                <!-- links: project page / pdf / code -->
+                <a href="data/afsysbench_paper.pdf">paper</a>
+                /
+                <a href="https://github.com/YOUR_REPO_FOR_AFSysBench">code</a>
+                /
+                <a href="data/afsysbench_slides.pdf">slides</a>
+
+                <p></p>
+                <p>
+                  We build and analyze <strong>AFSysBench</strong>, a benchmarking and profiling
+                  framework for <strong>AlphaFold3</strong> inference. We identify key bottlenecks
+                  in Evoformer-style attention, structure refinement, and diffusion-style components
+                  across heterogeneous CPU/GPU platforms. We show where compute, memory bandwidth,
+                  and interconnect become limiting, and discuss implications for future AI-centric
+                  architectures.
+                </p>
               </td>
             </tr>
 
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #aaba9e;">
-								 <h2>Recorded Talks</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://www.youtube.com/watch?v=hFlF33JZbA0">Radiance Fields and the Future of Generative Media, 2025</a><br>				  
-                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a><br>
-                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
-</a><br>
-                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a><br>
-				<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a><br>
-				<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #c6b89e;">
-								 <h2>Academic Service</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
-                <br>
-                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
-                <br>
-                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
-                <br>
-                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
-                <br>
-                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
-                <br>
-                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-                <br>
-                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-              </td>
-            </tr>
-						
-						
-           
-            <tr>
-              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
-								 </div>
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
-              </td>
-            </tr>
-            
           </tbody></table>
+
+          <!-- ================= MISC / SERVICE / ETC ================= -->
+          <!-- (You don't have this content yet, so we can either keep a shell
+               for future or remove completely. I'll keep a minimal footer.) -->
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  This website is based on an open-source template. Please do not scrape this page directly.
                 </p>
               </td>
             </tr>
           </tbody></table>
+
         </td>
       </tr>
+    </tbody>
     </table>
   </body>
 </html>
