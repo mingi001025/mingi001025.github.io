@@ -72,8 +72,23 @@
             </tr>
           </tbody></table>
 
-          <!-- ================= RESEARCH BLURB ================= -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- ================= NEWS ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>News</h2>
+                <ul>
+                  <li><b>Oct 2025</b> – Paper accepted to <strong>IEEE IISWC 2025</strong>.</li>
+                  <li><b>Sep 2025</b> – Started research on <strong>multi-agent LLM serving systems</strong>.</li>
+                  <li><b>Aug 2025</b> – Completed internship at <strong>Samsung SAIT</strong> on RISC-V CPU frontend optimization.</li>
+                  <li><b>Mar 2025</b> – AFSysBench source code released on <a href="https://github.com/stable-lab/AFSysBench">GitHub</a>.</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ================= RESEARCH ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
@@ -87,33 +102,23 @@
           </tbody></table>
 
           <!-- ================= PROJECT / PAPER ENTRY ================= -->
-          <!-- Replace this table row for each paper/project you want to showcase -->
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin:auto;"><tbody>
             <tr onmouseout="afsysbench_stop()" onmouseover="afsysbench_start()" bgcolor="#ffffd0">
-              <!-- left cell: thumbnail / video hover -->
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
-                  <!-- On-hover video block -->
                   <div class="two" id="afsysbench_image">
-                    <!-- optional short clip or animated gif/mp4 if you have it -->
-                    <!-- If you don't have a video yet, you can remove the <video> block and just keep the static image -->
                     <video width="100%" height="100%" muted autoplay loop>
                       <source src="images/afsysbench.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                     </video>
                   </div>
-
-                  <!-- fallback static image / thumbnail -->
                   <img src="images/afsysbench_thumb.jpg" width="160">
                 </div>
 
-                <!-- simple hover handlers -->
                 <script type="text/javascript">
                   function afsysbench_start() {
                     document.getElementById('afsysbench_image').style.opacity = "1";
                   }
-
                   function afsysbench_stop() {
                     document.getElementById('afsysbench_image').style.opacity = "0";
                   }
@@ -121,7 +126,6 @@
                 </script>
               </td>
 
-              <!-- right cell: text content -->
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="data/afsysbench-iiswc2025.pdf">
                   <span class="papertitle">
@@ -129,23 +133,14 @@
                   </span>
                 </a>
                 <br>
-
-                <!-- authors: bold yourself -->
-                 Jinpyo Kim,
-                <strong>Mingi Kwon</strong>,
+                Jinpyo Kim, <strong>Mingi Kwon</strong>, 
                 <a href="https://cseweb.ucsd.edu/~jzhao/">Jishen Zhao</a>
                 <br>
-
                 <em>IEEE International Symposium on Workload Characterization (IISWC)</em>, 2025
                 <br>
-
-                <!-- links: project page / pdf / code -->
-                <a href="data/afsysbench-iiswc2025.pdf">paper</a>
-                /
-                <a href="https://github.com/stable-lab/AFSysBench">code</a>
-                /
+                <a href="data/afsysbench-iiswc2025.pdf">paper</a> /
+                <a href="https://github.com/stable-lab/AFSysBench">code</a> /
                 <a href="data/afsysbench_slides.pdf">slides</a>
-
                 <p></p>
                 <p>
                   We build and analyze <strong>AFSysBench</strong>, a benchmarking and profiling
@@ -157,19 +152,62 @@
                 </p>
               </td>
             </tr>
-
           </tbody></table>
 
-          <!-- ================= MISC / SERVICE / ETC ================= -->
-          <!-- (You don't have this content yet, so we can either keep a shell
-               for future or remove completely. I'll keep a minimal footer.) -->
+          <!-- ================= EDUCATION ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Education</h2>
+                <ul>
+                  <li>
+                    <img src="images/ucsd_logo.png" alt="UCSD Logo" 
+                         style="height:20px; vertical-align:middle; margin-right:8px;">
+                    <strong>UC San Diego (UCSD)</strong> – M.S. in Electrical and Computer Engineering, 2024–Present
+                  </li>
+                  <li>
+                    <img src="images/hanyang_logo.png" alt="Hanyang University Logo" 
+                         style="height:20px; vertical-align:middle; margin-right:8px;">
+                    <strong>Hanyang University</strong> – B.S. in Electrical and Computer Engineering, 2024
+                  </li>
+                  
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- ================= TEACHING EXPERIENCE ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Teaching Experience</h2>
+                <ul>
+                  <li><strong>Instructor</strong> – Qualcomm AI Development Project, Qualcomm Institute (Jan.2025 - Feb.2025)</li>
+                  <li><strong>Calculus II Tutor / TA</strong> – Taught and mentored computer science undergraduates </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ================= MISC ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Miscellaneous</h2>
+                <p>
+                  In my free time, I enjoy surfing in San Diego, studying Spanish, and learning new teaching techniques.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ================= FOOTER ================= -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;"><tbody>
             <tr>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  This website is based on an open-source template <a href="https://github.com/jonbarron/jonbarron_website"> Jon Barron</a>. Please do not scrape this page directly.
+                  This website is based on an open-source template <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>. Please do not scrape this page directly.
                 </p>
               </td>
             </tr>
@@ -177,7 +215,6 @@
 
         </td>
       </tr>
-    </tbody>
-    </table>
+    </tbody></table>
   </body>
 </html>
